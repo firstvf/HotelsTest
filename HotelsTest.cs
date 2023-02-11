@@ -5,7 +5,8 @@ namespace TestFrontendDev
 {
     class HotelsTest
     {
-        //First
+        // First 
+        // ~1 min
         static string Cities(string[] cities)
         {
             string formatCities = null;
@@ -19,7 +20,8 @@ namespace TestFrontendDev
 
             return formatCities + ".";
         }
-        //Second
+        // Second
+        // ~3 min
         static float RoundNumber(float number)
         {
             var increaseValue = Math.Round(number);
@@ -35,7 +37,8 @@ namespace TestFrontendDev
                     return (float)decreaseValue;
             }
         }
-        //Third
+        // Third
+        // ~15min
         static string ComputersCount(int computersCount)
         {
             string computersStr = computersCount.ToString();
@@ -51,7 +54,8 @@ namespace TestFrontendDev
                 return computersCount + " компьютера";
             else return computersCount + " компьютеров";
         }
-        //Fourth
+        // Fourth
+        // ~20 min
         static bool IsNumberPrime(int number)
         {
             if (number != 2 && number != 3 && number != 5 && number != 7 &&
@@ -59,7 +63,8 @@ namespace TestFrontendDev
                 return false;
             return true;
         }
-        //Fifth
+        // Fifth
+        // ~20 min
         static int[] SameArrayElements(int[] firstArray, int[] secondArray)
         {
             List<int> list = new List<int>();
@@ -81,6 +86,7 @@ namespace TestFrontendDev
             return list.ToArray();
         }
         //Sixth
+        // ~25min
         static void MultiplicationTable(int number)
         {
             for (int i = 1; i <= number; i++)
