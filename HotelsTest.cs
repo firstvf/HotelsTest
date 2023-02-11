@@ -22,9 +22,8 @@ namespace TestFrontendDev
         //Second
         static float RoundNumber(float number)
         {
-            var resultNumber = Math.Round(number);
-            var increaseValue = resultNumber;
-            var decreaseValue = resultNumber;
+            var increaseValue = Math.Round(number);
+            var decreaseValue = Math.Round(number);
 
             while (true)
             {
