@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TestFrontendDev
 {
-    internal class Program
+    class HotelsTest
     {
         //First
         static string Cities(string[] cities)
